@@ -1,0 +1,96 @@
+.post {
+  width: 45%;
+  max-width: 500px;
+  background-color: #fdfbfb;
+  border: 1px solid #b3b3b3;
+  border-radius: 7px;
+  margin-bottom: 2%;
+}
+.post:hover {
+  box-shadow: 2px 2px 15px rgb(255, 128, 128);
+}
+.author-tab {
+  padding: 5px;
+  font-size: 1.5rem;
+  margin: 1.2% 0;
+}
+.author-name {
+  color: rgb(235 43 43 / 84%);
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.author-name:hover {
+  color: rgba(235, 43, 43, 0.53);
+}
+.post-image {
+  padding: 5px;
+  width: 90%;
+  margin: 5%;
+  object-fit: contain;
+  border-radius: 7px;
+}
+.post-image:hover {
+  transform: scale(1.135);
+}
+.post-info {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2% 0;
+}
+.post-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #0021d491;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post-title:hover {
+  color: #0020d46e;
+}
+.post-date {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: #58585887;
+}
+.post-desc {
+  padding: 5px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #444;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 2% 0;
+}
+.post-cats {
+  display: flex;
+  padding-left: 5px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(235 235 235 / 63%);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.post-cat {
+  margin: 1% 2%;
+  display: inline-block;
+  text-decoration: none;
+  color: #be9656;
+  border: 1px solid #be9656;
+  border-radius: 7px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1rem;
+  padding: 0.2% 1%;
+  cursor: pointer;
+}

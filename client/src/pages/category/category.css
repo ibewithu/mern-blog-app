@@ -1,0 +1,16 @@
+.post-section2 {
+  position: absolute;
+  top: 10%;
+}
+.home-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.all-posts-title2 {
+  position: absolute;
+  left: 5%;
+  top: -3%;
+  font-size: 1.5rem;
+  color: rgb(5 108 18 / 74%);
+}

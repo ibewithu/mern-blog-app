@@ -1,0 +1,99 @@
+.single-post {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  padding: 0 2vw;
+}
+.single-post-image {
+  width: 61vw;
+  object-fit: contain;
+}
+.single-post-title {
+  margin-top: 1vh;
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+}
+.single-post-title-input {
+  font-family: "Lora", serif;
+  font-size: 28px;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.single-post-title-input:focus {
+  outline: none;
+}
+
+.single-post-edit {
+  float: right;
+  font-size: 16px;
+}
+
+.single-post-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.single-post-icon:first-child {
+  color: teal;
+}
+
+.single-post-icon:last-child {
+  color: tomato;
+}
+
+.single-post-info {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+.single-post-desc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.single-post-desc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.single-post-desc-input {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.single-post-desc-input:focus {
+  outline: none;
+}
+.single-post-button-cancel {
+  width: 100px;
+  border: none;
+  background-color: rgb(237, 41, 38);
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+.single-post-button-update {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}

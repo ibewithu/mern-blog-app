@@ -1,0 +1,48 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  width: 25%;
+  max-width: 440px;
+}
+.title-bar {
+  margin: 4% 0;
+  width: 80%;
+  border-top: 1px solid #a7a4a4;
+  border-bottom: 1px solid #a7a4a4;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1rem;
+  color: #222;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+.tag-list {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.single-tag {
+  display: inline-block;
+  margin: 0 5%;
+}
+.single-tag:hover {
+  color: red;
+}
+.icon-box {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon{
+  font-size: 2vw;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.icon:hover {
+  color: red;
+  box-shadow: 2px 2px 15px rgb(255, 128, 128);
+}
