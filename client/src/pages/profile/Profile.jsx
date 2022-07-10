@@ -39,13 +39,14 @@ export default function Profile() {
   return (<>
     { profile && <div>
       { user?.username===profile.username && editMode ? <>
-        <input
-          type="file"
-          id="fileInput"
-          style={{ display: "none" }}
-          className="profile-img"
-          // onChange={(e) => setFile(e.target.files[0])}
-        />
+        <span className="profile-img">
+          <input
+            type="file"
+            id="fileInput"
+            style={{ display: "none" }}
+            // onChange={(e) => setFile(e.target.files[0])}
+          />
+        </span>
         <input
           type="text"
           value={username}
